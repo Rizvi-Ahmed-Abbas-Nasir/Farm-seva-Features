@@ -5,6 +5,7 @@ import StepFormWizard from "./components/StepFormWizard";
 import RiskResultPage from "./components/RiskResultPage"; // import the new page
 import GovtScheme from "./components/GovtScheme"; // import the new page
 import OutBreak from "./components/OutBreak"; // import the new page
+import VetConnect from "./components/VetConnect"; // import the new page
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
           <Route path="/risk-assignment" element={<StepFormWizard />} />
                     <Route path="/Govt-schemes" element={<GovtScheme />} />
                     <Route path="/Live-OutBreak" element={<OutBreak />} />
+                                        <Route path="/VetConnect" element={<VetConnect />} />
+
 
 
           {/* Risk Result page */}
